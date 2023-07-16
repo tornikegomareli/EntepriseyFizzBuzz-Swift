@@ -11,7 +11,11 @@ import XCTest
 
 class FizzBuzzTests: XCTestCase {
   func testFizzBuzzBuilder() {
-    let fizzBuzz = FizzBuzzBuilder<Int>().setQuantity(5).setRange(lower: 1, upper: 5).build()
+    let fizzBuzz = FizzBuzzBuilder<Int>()
+      .setQuantity(5)
+      .setRange(lower: 1, upper: 5)
+      .build()
+
     let results = fizzBuzz.playGame()
     XCTAssertEqual(results.count, 5, "Should generate 5 results")
   }
@@ -33,7 +37,7 @@ class FizzBuzzTests: XCTestCase {
     // Assert
     XCTAssertEqual(gameResults.count, 5, "Should generate 5 game results")
     XCTAssertEqual(gameResults[2], "Fizz", "Should be fizz")
-    XCTAssertEqual(gameResults[5], "Buzz", "Should be buzz")
+    XCTAssertEqual(gameResults[4], "Buzz", "Should be buzz")
 
     // Check individual game results
     // ...

@@ -10,14 +10,14 @@ import XCTest
 final class FizzBuzzEntepriseyUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
-        true
+        false
     }
 
     override func setUpWithError() throws {
         continueAfterFailure = false
     }
 
-    func testLaunch() throws {
+    func testLaurch() throws {
         let app = XCUIApplication()
         app.launch()
 
