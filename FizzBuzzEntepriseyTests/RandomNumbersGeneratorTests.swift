@@ -1,5 +1,5 @@
 //
-//  FizzBuzzEntepriseyTests.swift
+//  RandomNumbersGeneratorTests.swift
 //  FizzBuzzEntepriseyTests
 //
 //  Created by Tornike on 16/07/2023.

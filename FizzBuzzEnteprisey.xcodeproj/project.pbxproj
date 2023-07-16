@@ -11,9 +11,7 @@
 		7908E0FE2A6409CE00A9A927 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E0FD2A6409CE00A9A927 /* ContentView.swift */; };
 		7908E1002A6409D100A9A927 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7908E0FF2A6409D100A9A927 /* Assets.xcassets */; };
 		7908E1032A6409D100A9A927 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7908E1022A6409D100A9A927 /* Preview Assets.xcassets */; };
-		7908E10D2A6409D100A9A927 /* FizzBuzzEntepriseyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E10C2A6409D100A9A927 /* FizzBuzzEntepriseyTests.swift */; };
-		7908E1172A6409D100A9A927 /* FizzBuzzEntepriseyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E1162A6409D100A9A927 /* FizzBuzzEntepriseyUITests.swift */; };
-		7908E1192A6409D100A9A927 /* FizzBuzzEntepriseyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E1182A6409D100A9A927 /* FizzBuzzEntepriseyUITestsLaunchTests.swift */; };
+		7908E10D2A6409D100A9A927 /* RandomNumbersGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E10C2A6409D100A9A927 /* RandomNumbersGeneratorTests.swift */; };
 		7908E12B2A640A1F00A9A927 /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E12A2A640A1F00A9A927 /* Generator.swift */; };
 		7908E12D2A640A2600A9A927 /* RangeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E12C2A640A2600A9A927 /* RangeProvider.swift */; };
 		7908E12E2A640A2600A9A927 /* RangeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E12C2A640A2600A9A927 /* RangeProvider.swift */; };
@@ -36,6 +34,36 @@
 		7908E1482A640B6500A9A927 /* RandomSingleNumberGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E1462A640B6500A9A927 /* RandomSingleNumberGenerator.swift */; };
 		7908E14B2A640C4A00A9A927 /* Randomizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E14A2A640C4A00A9A927 /* Randomizable.swift */; };
 		7908E14C2A640C4A00A9A927 /* Randomizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E14A2A640C4A00A9A927 /* Randomizable.swift */; };
+		7908E1502A6410C800A9A927 /* DivisibleRuleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E14F2A6410C800A9A927 /* DivisibleRuleProtocol.swift */; };
+		7908E1512A6410C800A9A927 /* DivisibleRuleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E14F2A6410C800A9A927 /* DivisibleRuleProtocol.swift */; };
+		7908E1542A64117700A9A927 /* DivisibleRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E1532A64117700A9A927 /* DivisibleRule.swift */; };
+		7908E1552A64117700A9A927 /* DivisibleRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E1532A64117700A9A927 /* DivisibleRule.swift */; };
+		7908E1572A64123000A9A927 /* FizzBuzzRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E1562A64123000A9A927 /* FizzBuzzRule.swift */; };
+		7908E1582A64123000A9A927 /* FizzBuzzRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E1562A64123000A9A927 /* FizzBuzzRule.swift */; };
+		7908E15A2A64124500A9A927 /* FizzRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E1592A64124500A9A927 /* FizzRule.swift */; };
+		7908E15B2A64124500A9A927 /* FizzRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E1592A64124500A9A927 /* FizzRule.swift */; };
+		7908E15D2A64125E00A9A927 /* BuzzRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E15C2A64125E00A9A927 /* BuzzRule.swift */; };
+		7908E15E2A64125E00A9A927 /* BuzzRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E15C2A64125E00A9A927 /* BuzzRule.swift */; };
+		7908E1612A6412B300A9A927 /* DivisibleRuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E15F2A6412B300A9A927 /* DivisibleRuleTests.swift */; };
+		7908E1642A6412DB00A9A927 /* FizzRuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E1622A6412DB00A9A927 /* FizzRuleTests.swift */; };
+		7908E1672A6412FA00A9A927 /* BuzzRuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E1652A6412FA00A9A927 /* BuzzRuleTests.swift */; };
+		7908E16A2A641CCB00A9A927 /* DivisibleRuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E1692A641CCB00A9A927 /* DivisibleRuleFactory.swift */; };
+		7908E16B2A641CCB00A9A927 /* DivisibleRuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E1692A641CCB00A9A927 /* DivisibleRuleFactory.swift */; };
+		7908E16D2A641CDA00A9A927 /* FizzRuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E16C2A641CDA00A9A927 /* FizzRuleFactory.swift */; };
+		7908E16E2A641CDA00A9A927 /* FizzRuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E16C2A641CDA00A9A927 /* FizzRuleFactory.swift */; };
+		7908E1702A641CEB00A9A927 /* BuzzRuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E16F2A641CEB00A9A927 /* BuzzRuleFactory.swift */; };
+		7908E1712A641CEB00A9A927 /* BuzzRuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E16F2A641CEB00A9A927 /* BuzzRuleFactory.swift */; };
+		7908E1742A641D5000A9A927 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E1732A641D5000A9A927 /* FizzBuzz.swift */; };
+		7908E1752A641D5000A9A927 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E1732A641D5000A9A927 /* FizzBuzz.swift */; };
+		7908E1782A641E0F00A9A927 /* FizzBuzzBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E1772A641E0F00A9A927 /* FizzBuzzBuilder.swift */; };
+		7908E1792A641E0F00A9A927 /* FizzBuzzBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E1772A641E0F00A9A927 /* FizzBuzzBuilder.swift */; };
+		7908E17C2A641E3F00A9A927 /* FizzBuzzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E17A2A641E3F00A9A927 /* FizzBuzzTests.swift */; };
+		7908E17E2A641EC600A9A927 /* GenericRangeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E17D2A641EC600A9A927 /* GenericRangeProvider.swift */; };
+		7908E17F2A641EC600A9A927 /* GenericRangeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E17D2A641EC600A9A927 /* GenericRangeProvider.swift */; };
+		7908E1832A6422FC00A9A927 /* MockRandomNumbersGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E1812A6422FC00A9A927 /* MockRandomNumbersGenerator.swift */; };
+		7908E1842A64230900A9A927 /* MockRandomNumbersGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E1812A6422FC00A9A927 /* MockRandomNumbersGenerator.swift */; };
+		7908E18E2A64247F00A9A927 /* FizzBuzzEntepriseyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E18D2A64247F00A9A927 /* FizzBuzzEntepriseyUITests.swift */; };
+		7908E1902A64248000A9A927 /* FizzBuzzEntepriseyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E18F2A64248000A9A927 /* FizzBuzzEntepriseyUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,10 +90,8 @@
 		7908E0FF2A6409D100A9A927 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7908E1022A6409D100A9A927 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7908E1082A6409D100A9A927 /* FizzBuzzEntepriseyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizzBuzzEntepriseyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7908E10C2A6409D100A9A927 /* FizzBuzzEntepriseyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzEntepriseyTests.swift; sourceTree = "<group>"; };
+		7908E10C2A6409D100A9A927 /* RandomNumbersGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomNumbersGeneratorTests.swift; sourceTree = "<group>"; };
 		7908E1122A6409D100A9A927 /* FizzBuzzEntepriseyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizzBuzzEntepriseyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7908E1162A6409D100A9A927 /* FizzBuzzEntepriseyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzEntepriseyUITests.swift; sourceTree = "<group>"; };
-		7908E1182A6409D100A9A927 /* FizzBuzzEntepriseyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzEntepriseyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7908E12A2A640A1F00A9A927 /* Generator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Generator.swift; sourceTree = "<group>"; };
 		7908E12C2A640A2600A9A927 /* RangeProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeProvider.swift; sourceTree = "<group>"; };
 		7908E1302A640A3700A9A927 /* NumbersGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumbersGenerator.swift; sourceTree = "<group>"; };
@@ -77,6 +103,24 @@
 		7908E13C2A640A5100A9A927 /* FloatRangeProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatRangeProvider.swift; sourceTree = "<group>"; };
 		7908E1462A640B6500A9A927 /* RandomSingleNumberGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomSingleNumberGenerator.swift; sourceTree = "<group>"; };
 		7908E14A2A640C4A00A9A927 /* Randomizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Randomizable.swift; sourceTree = "<group>"; };
+		7908E14F2A6410C800A9A927 /* DivisibleRuleProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisibleRuleProtocol.swift; sourceTree = "<group>"; };
+		7908E1532A64117700A9A927 /* DivisibleRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisibleRule.swift; sourceTree = "<group>"; };
+		7908E1562A64123000A9A927 /* FizzBuzzRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzRule.swift; sourceTree = "<group>"; };
+		7908E1592A64124500A9A927 /* FizzRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzRule.swift; sourceTree = "<group>"; };
+		7908E15C2A64125E00A9A927 /* BuzzRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuzzRule.swift; sourceTree = "<group>"; };
+		7908E15F2A6412B300A9A927 /* DivisibleRuleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisibleRuleTests.swift; sourceTree = "<group>"; };
+		7908E1622A6412DB00A9A927 /* FizzRuleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzRuleTests.swift; sourceTree = "<group>"; };
+		7908E1652A6412FA00A9A927 /* BuzzRuleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuzzRuleTests.swift; sourceTree = "<group>"; };
+		7908E1692A641CCB00A9A927 /* DivisibleRuleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisibleRuleFactory.swift; sourceTree = "<group>"; };
+		7908E16C2A641CDA00A9A927 /* FizzRuleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzRuleFactory.swift; sourceTree = "<group>"; };
+		7908E16F2A641CEB00A9A927 /* BuzzRuleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuzzRuleFactory.swift; sourceTree = "<group>"; };
+		7908E1732A641D5000A9A927 /* FizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
+		7908E1772A641E0F00A9A927 /* FizzBuzzBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzBuilder.swift; sourceTree = "<group>"; };
+		7908E17A2A641E3F00A9A927 /* FizzBuzzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzTests.swift; sourceTree = "<group>"; };
+		7908E17D2A641EC600A9A927 /* GenericRangeProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericRangeProvider.swift; sourceTree = "<group>"; };
+		7908E1812A6422FC00A9A927 /* MockRandomNumbersGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRandomNumbersGenerator.swift; sourceTree = "<group>"; };
+		7908E18D2A64247F00A9A927 /* FizzBuzzEntepriseyUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FizzBuzzEntepriseyUITests.swift; sourceTree = "<group>"; };
+		7908E18F2A64248000A9A927 /* FizzBuzzEntepriseyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzEntepriseyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +151,10 @@
 		7908E0EF2A6409CE00A9A927 = {
 			isa = PBXGroup;
 			children = (
-				7908E1252A6409E000A9A927 /* Core */,
+				7908E1252A6409E000A9A927 /* FizzBuzzCoreBusinessLayer */,
 				7908E0FA2A6409CE00A9A927 /* FizzBuzzEnteprisey */,
 				7908E10B2A6409D100A9A927 /* FizzBuzzEntepriseyTests */,
-				7908E1152A6409D100A9A927 /* FizzBuzzEntepriseyUITests */,
+				7908E18C2A64247600A9A927 /* FizzBuzzEntepriseyUITests */,
 				7908E0F92A6409CE00A9A927 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -147,32 +191,31 @@
 		7908E10B2A6409D100A9A927 /* FizzBuzzEntepriseyTests */ = {
 			isa = PBXGroup;
 			children = (
-				7908E10C2A6409D100A9A927 /* FizzBuzzEntepriseyTests.swift */,
+				7908E1802A6422EE00A9A927 /* Mocks */,
+				7908E10C2A6409D100A9A927 /* RandomNumbersGeneratorTests.swift */,
+				7908E15F2A6412B300A9A927 /* DivisibleRuleTests.swift */,
+				7908E1622A6412DB00A9A927 /* FizzRuleTests.swift */,
+				7908E1652A6412FA00A9A927 /* BuzzRuleTests.swift */,
+				7908E17A2A641E3F00A9A927 /* FizzBuzzTests.swift */,
 			);
 			path = FizzBuzzEntepriseyTests;
 			sourceTree = "<group>";
 		};
-		7908E1152A6409D100A9A927 /* FizzBuzzEntepriseyUITests */ = {
+		7908E1252A6409E000A9A927 /* FizzBuzzCoreBusinessLayer */ = {
 			isa = PBXGroup;
 			children = (
-				7908E1162A6409D100A9A927 /* FizzBuzzEntepriseyUITests.swift */,
-				7908E1182A6409D100A9A927 /* FizzBuzzEntepriseyUITestsLaunchTests.swift */,
-			);
-			path = FizzBuzzEntepriseyUITests;
-			sourceTree = "<group>";
-		};
-		7908E1252A6409E000A9A927 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				7908E1292A640A0700A9A927 /* Protocols */,
+				7908E1762A641DCB00A9A927 /* Builders */,
+				7908E1722A641D4500A9A927 /* FizzBuzzCore */,
+				7908E14D2A6410A900A9A927 /* RulesManagement */,
 				7908E1262A6409EF00A9A927 /* Infrastructure */,
 			);
-			path = Core;
+			path = FizzBuzzCoreBusinessLayer;
 			sourceTree = "<group>";
 		};
 		7908E1262A6409EF00A9A927 /* Infrastructure */ = {
 			isa = PBXGroup;
 			children = (
+				7908E1292A640A0700A9A927 /* Protocols */,
 				7908E1492A640C1F00A9A927 /* Randomization */,
 				7908E1282A6409FE00A9A927 /* ConcreteGenerators */,
 				7908E1272A6409F800A9A927 /* RangeProviders */,
@@ -187,6 +230,7 @@
 				7908E13C2A640A5100A9A927 /* FloatRangeProvider.swift */,
 				7908E13B2A640A5100A9A927 /* Int64RangeProvider.swift */,
 				7908E1392A640A5100A9A927 /* IntRangeProvider.swift */,
+				7908E17D2A641EC600A9A927 /* GenericRangeProvider.swift */,
 			);
 			path = RangeProviders;
 			sourceTree = "<group>";
@@ -217,6 +261,78 @@
 				7908E1362A640A4000A9A927 /* RandomNumbersGenerator.swift */,
 			);
 			path = Randomization;
+			sourceTree = "<group>";
+		};
+		7908E14D2A6410A900A9A927 /* RulesManagement */ = {
+			isa = PBXGroup;
+			children = (
+				7908E1682A641CBE00A9A927 /* Factories */,
+				7908E1522A64116C00A9A927 /* Rules */,
+				7908E14E2A6410BA00A9A927 /* Protocols */,
+			);
+			path = RulesManagement;
+			sourceTree = "<group>";
+		};
+		7908E14E2A6410BA00A9A927 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				7908E14F2A6410C800A9A927 /* DivisibleRuleProtocol.swift */,
+				7908E1562A64123000A9A927 /* FizzBuzzRule.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		7908E1522A64116C00A9A927 /* Rules */ = {
+			isa = PBXGroup;
+			children = (
+				7908E1532A64117700A9A927 /* DivisibleRule.swift */,
+				7908E1592A64124500A9A927 /* FizzRule.swift */,
+				7908E15C2A64125E00A9A927 /* BuzzRule.swift */,
+			);
+			path = Rules;
+			sourceTree = "<group>";
+		};
+		7908E1682A641CBE00A9A927 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				7908E1692A641CCB00A9A927 /* DivisibleRuleFactory.swift */,
+				7908E16C2A641CDA00A9A927 /* FizzRuleFactory.swift */,
+				7908E16F2A641CEB00A9A927 /* BuzzRuleFactory.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		7908E1722A641D4500A9A927 /* FizzBuzzCore */ = {
+			isa = PBXGroup;
+			children = (
+				7908E1732A641D5000A9A927 /* FizzBuzz.swift */,
+			);
+			path = FizzBuzzCore;
+			sourceTree = "<group>";
+		};
+		7908E1762A641DCB00A9A927 /* Builders */ = {
+			isa = PBXGroup;
+			children = (
+				7908E1772A641E0F00A9A927 /* FizzBuzzBuilder.swift */,
+			);
+			path = Builders;
+			sourceTree = "<group>";
+		};
+		7908E1802A6422EE00A9A927 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				7908E1812A6422FC00A9A927 /* MockRandomNumbersGenerator.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		7908E18C2A64247600A9A927 /* FizzBuzzEntepriseyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7908E18F2A64248000A9A927 /* FizzBuzzEntepriseyUITestsLaunchTests.swift */,
+				7908E18D2A64247F00A9A927 /* FizzBuzzEntepriseyUITests.swift */,
+			);
+			path = FizzBuzzEntepriseyUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,18 +466,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				7908E1312A640A3700A9A927 /* NumbersGenerator.swift in Sources */,
+				7908E1742A641D5000A9A927 /* FizzBuzz.swift in Sources */,
+				7908E1542A64117700A9A927 /* DivisibleRule.swift in Sources */,
 				7908E12B2A640A1F00A9A927 /* Generator.swift in Sources */,
+				7908E1572A64123000A9A927 /* FizzBuzzRule.swift in Sources */,
+				7908E16A2A641CCB00A9A927 /* DivisibleRuleFactory.swift in Sources */,
+				7908E1702A641CEB00A9A927 /* BuzzRuleFactory.swift in Sources */,
 				7908E0FE2A6409CE00A9A927 /* ContentView.swift in Sources */,
 				7908E12D2A640A2600A9A927 /* RangeProvider.swift in Sources */,
 				7908E1472A640B6500A9A927 /* RandomSingleNumberGenerator.swift in Sources */,
+				7908E17E2A641EC600A9A927 /* GenericRangeProvider.swift in Sources */,
+				7908E1502A6410C800A9A927 /* DivisibleRuleProtocol.swift in Sources */,
 				7908E1412A640A5100A9A927 /* Int64RangeProvider.swift in Sources */,
 				7908E13D2A640A5100A9A927 /* IntRangeProvider.swift in Sources */,
 				7908E1432A640A5100A9A927 /* FloatRangeProvider.swift in Sources */,
 				7908E1372A640A4000A9A927 /* RandomNumbersGenerator.swift in Sources */,
+				7908E15D2A64125E00A9A927 /* BuzzRule.swift in Sources */,
+				7908E1842A64230900A9A927 /* MockRandomNumbersGenerator.swift in Sources */,
 				7908E0FC2A6409CE00A9A927 /* FizzBuzzEntepriseyApp.swift in Sources */,
+				7908E15A2A64124500A9A927 /* FizzRule.swift in Sources */,
+				7908E1782A641E0F00A9A927 /* FizzBuzzBuilder.swift in Sources */,
 				7908E14B2A640C4A00A9A927 /* Randomizable.swift in Sources */,
 				7908E1342A640A3C00A9A927 /* RandomStringGenerator.swift in Sources */,
 				7908E13F2A640A5100A9A927 /* DoubleRangeProvider.swift in Sources */,
+				7908E16D2A641CDA00A9A927 /* FizzRuleFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,18 +497,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7908E1512A6410C800A9A927 /* DivisibleRuleProtocol.swift in Sources */,
+				7908E17F2A641EC600A9A927 /* GenericRangeProvider.swift in Sources */,
+				7908E16B2A641CCB00A9A927 /* DivisibleRuleFactory.swift in Sources */,
 				7908E1352A640A3C00A9A927 /* RandomStringGenerator.swift in Sources */,
+				7908E1582A64123000A9A927 /* FizzBuzzRule.swift in Sources */,
+				7908E1552A64117700A9A927 /* DivisibleRule.swift in Sources */,
+				7908E1672A6412FA00A9A927 /* BuzzRuleTests.swift in Sources */,
+				7908E15B2A64124500A9A927 /* FizzRule.swift in Sources */,
 				7908E1482A640B6500A9A927 /* RandomSingleNumberGenerator.swift in Sources */,
 				7908E1382A640A4000A9A927 /* RandomNumbersGenerator.swift in Sources */,
 				7908E1322A640A3700A9A927 /* NumbersGenerator.swift in Sources */,
+				7908E15E2A64125E00A9A927 /* BuzzRule.swift in Sources */,
+				7908E1792A641E0F00A9A927 /* FizzBuzzBuilder.swift in Sources */,
+				7908E1612A6412B300A9A927 /* DivisibleRuleTests.swift in Sources */,
 				7908E12F2A640A2800A9A927 /* Generator.swift in Sources */,
+				7908E16E2A641CDA00A9A927 /* FizzRuleFactory.swift in Sources */,
+				7908E17C2A641E3F00A9A927 /* FizzBuzzTests.swift in Sources */,
 				7908E1422A640A5100A9A927 /* Int64RangeProvider.swift in Sources */,
+				7908E1642A6412DB00A9A927 /* FizzRuleTests.swift in Sources */,
 				7908E12E2A640A2600A9A927 /* RangeProvider.swift in Sources */,
 				7908E13E2A640A5100A9A927 /* IntRangeProvider.swift in Sources */,
-				7908E10D2A6409D100A9A927 /* FizzBuzzEntepriseyTests.swift in Sources */,
+				7908E1712A641CEB00A9A927 /* BuzzRuleFactory.swift in Sources */,
+				7908E1832A6422FC00A9A927 /* MockRandomNumbersGenerator.swift in Sources */,
+				7908E10D2A6409D100A9A927 /* RandomNumbersGeneratorTests.swift in Sources */,
 				7908E14C2A640C4A00A9A927 /* Randomizable.swift in Sources */,
 				7908E1402A640A5100A9A927 /* DoubleRangeProvider.swift in Sources */,
 				7908E1442A640A5100A9A927 /* FloatRangeProvider.swift in Sources */,
+				7908E1752A641D5000A9A927 /* FizzBuzz.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,8 +532,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7908E1192A6409D100A9A927 /* FizzBuzzEntepriseyUITestsLaunchTests.swift in Sources */,
-				7908E1172A6409D100A9A927 /* FizzBuzzEntepriseyUITests.swift in Sources */,
+				7908E1902A64248000A9A927 /* FizzBuzzEntepriseyUITestsLaunchTests.swift in Sources */,
+				7908E18E2A64247F00A9A927 /* FizzBuzzEntepriseyUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

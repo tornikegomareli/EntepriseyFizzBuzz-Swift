@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A4636C98-3179-4812-BFC3-48735803A70A"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0630F72B-6F17-4E2A-B0C0-2073FC1ED5BD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FizzBuzzCoreBusinessLayer/FizzBuzzCore/FizzBuzz.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "playGame(quantity:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0630F72B-6F17-4E2A-B0C0-2073FC1ED5BD - dfd9bc6b397def08"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FizzBuzzEnteprisey.FizzBuzz.playGame(quantity: Swift.Int) -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "FizzBuzzEnteprisey"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tornike-mac/Desktop/FizzBuzzEnteprisey/FizzBuzzCoreBusinessLayer/FizzBuzzCore/FizzBuzz.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "1380">
+               </Location>
+               <Location
+                  uuid = "0630F72B-6F17-4E2A-B0C0-2073FC1ED5BD - 41a1956a49ae2738"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FizzBuzzEntepriseyTests.FizzBuzz.playGame(quantity: Swift.Int) -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "FizzBuzzEntepriseyTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tornike-mac/Desktop/FizzBuzzEnteprisey/FizzBuzzCoreBusinessLayer/FizzBuzzCore/FizzBuzz.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "1380">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
